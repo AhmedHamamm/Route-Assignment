@@ -5,84 +5,103 @@
     <title>Personal Data</title>
   </head>
   <body>
-    <!-- Personal Data Fieldset -->
-    <fieldset style="width: 97%; background-color: #8b0000">
-      <legend style="background-color: #5053b9">Personal Data</legend>
-      <br />
-      <br />
+    <!-- Data form -->
+    <form>
+      <!-- Personal Data Fieldset -->
+      <fieldset style="width: 97%; background-color: #8b0000">
+        <legend style="background-color: #5053b9">Personal Data</legend>
+        <br />
+        <br />
 
-      <!-- Your Name Fieldset -->
-      <fieldset style="width: 96%; background-color: #b2b844">
-        <legend style="background-color: #5053b9">YourName</legend>
-        <br />
-        <br />
-        <table>
-          <tr>
-            <th>
-              <label for="firstName">first name:</label>
-            </th>
-            <td>
-              <input
-                type="text"
-                id="firstName"
-                name="firstName"
-                placeholder="e.x ahmed"
-              />
-            </td>
-          </tr>
-          <tr>
-            <th>
-              <label for="secondName">second name:</label>
-            </th>
-            <td>
-              <input
-                type="text"
-                id="secondName"
-                name="secondName"
-                placeholder="e.x hamam"
-              />
-            </td>
-          </tr>
+        <!-- Your Name Fieldset -->
+        <fieldset style="width: 96%; background-color: #b2b844">
+          <legend style="background-color: #5053b9">YourName</legend>
           <br />
-        </table>
-      </fieldset>
+          <br />
+          <table>
+            <tr>
+              <td>
+                <label for="firstName">first name</label>
+              </td>
+              <td>
+                :
+              </td>
+              <td>
+                <input
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  placeholder="e.x ahmed"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="secondName">second name</label>
+              </td>
+              <td>
+                :
+              </td>
+              <td>
+                <input
+                  type="text"
+                  id="secondName"
+                  name="secondName"
+                  placeholder="e.x hamam"
+                />
+              </td>
+            </tr>
+            <br />
+          </table>
+        </fieldset>
 
-      <br />
-      <br />
-      <br />
+        <br />
+        <br />
+        <br />
 
-      <!-- Data form -->
-      <form>
+      
         <!-- Data table -->
         <table>
           <tr>
-            <th>
-              <label for="name">your phone:</label>
-            </th>
             <td>
-              <input type="number" id="number" name="name" />
+              <label for="name">your phone</label>
+            </td>
+            <td>
+                :
+            </td>
+            <td>
+              <input type="tel" id="number" name="name" />
             </td>
           </tr>
           <tr>
-            <th>
-              <label for="email">Email:</label>
-            </th>
+            <td>
+              <label for="email">Email</label>
+            </td>
+            <td>
+              :
+            </td>
             <td>
               <input type="email" id="email" name="email" />
             </td>
           </tr>
           <tr>
-            <th>
-              <label for="password">password:</label>
-            </th>
+            <td>
+              <label for="password">password</label>
+            </td>
+            <td>
+              :
+            </td>
             <td>
               <input type="password" id="password" name="password" />
             </td>
           </tr>
           <tr>
-            <th>
-              <label for="rePassword">re-password:</label>
-            </th>
+            <td>
+              <label for="rePassword">re-password</label>
+            </td>
+            <td>
+              :
+            </td>
             <td>
               <input type="password" id="rePassword" name="rePassword" />
             </td>
@@ -149,11 +168,7 @@
       <br />
 
       <!-- Submit button -->
-      <input
-        type="submit"
-        value="Submit"
-        style="background-color: #000000; color: #ffffff"
-      />
+      <input type="image" name="submit" src="submit.png" border="0" alt="Submit" style="width: 50px;" />
 
       <br />
       <br />
