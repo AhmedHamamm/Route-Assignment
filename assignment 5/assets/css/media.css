@@ -1,0 +1,470 @@
+/*  XSmall */
+
+@media screen and (width <= 639px) {
+  .container {
+    width: 95%;
+  }
+
+  /*   Navbar   */
+  nav ul {
+    display: none;
+  }
+  nav .container {
+    position: relative;
+  }
+  nav h1 {
+    position: absolute;
+    left: 0;
+  }
+  nav .site-mode {
+    position: absolute;
+    right: 0;
+  }
+  nav .site-mode i.bars {
+    display: inline;
+  }
+
+  /*   HEADER   */
+  header {
+    height: auto;
+  }
+  header .container {
+    flex-flow: wrap column-reverse;
+    row-gap: 3.125rem;
+  }
+  header .home-content {
+    width: 100%;
+    text-align: center;
+  }
+  header .home-content .header-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  header .home-content a:nth-of-type(1) {
+    border-radius: 1.875rem;
+  }
+  header .home-image {
+    width: 100%;
+  }
+
+  /*   Chefs   */
+  .chefs .content {
+    row-gap: 1.875rem;
+  }
+  .chefs .content .card {
+    width: 100%;
+  }
+
+  /*   Gallery   */
+  .gallery .content {
+    height: auto;
+  }
+  .gallery .container {
+    width: 95%;
+  }
+  .gallery .content .content-image {
+    width: 100%;
+  }
+  .gallery .content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 20.113rem 20.113rem 45.281rem 30.188rem 50.413rem 20.113rem 30.188rem;
+  }
+  .gallery img {
+    width: 100%;
+  }
+  .gallery .content .image-1 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 1;
+    grid-row: 2;
+  }
+  .gallery .content .image-2 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 2;
+    grid-row: 3;
+  }
+  .gallery .content .image-3 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 3;
+    grid-row: 4;
+  }
+  .gallery .content .image-4 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 4;
+    grid-row: 5;
+  }
+  .gallery .content .image-5 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 5;
+    grid-row: 6;
+  }
+  .gallery .content .image-6 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 6;
+    grid-row: 7;
+  }
+  .gallery .content .image-7 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 7;
+    grid-row: 8;
+  }
+
+  /* Contact */
+  .contact .info .card {
+    width: 100%;
+  }
+  .contact .form .row-1 input {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer .container .col-1 {
+    width: 100%;
+  }
+  .footer .container .col-1 picture {
+    min-width: 2.5rem;
+  }
+  .footer .container .col-2 {
+    width: 100%;
+  }
+  .footer .container .col-2 .subscribe input {
+    width: 100%;
+  }
+  .footer .container .col-2 .subscribe button {
+    width: 100%;
+  }
+  .footer .container .col-3 {
+    width: 100%;
+  }
+  .footer .container .col-3 h3 {
+    margin-bottom: 1rem;
+  }
+  .footer .container .col-3 ul {
+    gap: 1.25rem;
+  }
+}
+
+/* Small  */
+
+@media screen and (width >= 640px) and (width <= 768px) {
+  .container {
+    width: 540px;
+  }
+
+  /* Navbar */
+  nav ul {
+    display: none;
+  }
+  nav .site-mode i.bars {
+    display: inline;
+  }
+
+  /* Header */
+  header {
+    height: auto;
+  }
+  header .container {
+    flex-flow: wrap column-reverse;
+    row-gap: 3.125rem;
+  }
+  header .home-content {
+    width: 100%;
+    text-align: center;
+  }
+  header .home-content .header-buttons {
+    justify-content: center;
+  }
+  header .home-content a:nth-of-type(1) {
+    border-radius: 1.875rem;
+  }
+  header .home-image {
+    width: 80%;
+  }
+
+  /* Chefs */
+  .chefs .content {
+    row-gap: 1.875rem;
+  }
+  .chefs .content .card {
+    width: 89%;
+    margin: 0px auto;
+  }
+
+  /* Gallery */
+  .gallery .content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 20.113rem 20.113rem 45.281rem 30.188rem 50.413rem 20.113rem 30.188rem;
+  }
+  .gallery .content .content-image {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .gallery .content .image-1 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 1;
+    grid-row: 2;
+  }
+  .gallery .content .image-2 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 2;
+    grid-row: 3;
+  }
+  .gallery .content .image-3 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 3;
+    grid-row: 4;
+  }
+  .gallery .content .image-4 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 4;
+    grid-row: 5;
+  }
+  .gallery .content .image-5 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 5;
+    grid-row: 6;
+  }
+  .gallery .content .image-6 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 6;
+    grid-row: 7;
+  }
+  .gallery .content .image-7 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 7;
+    grid-row: 8;
+  }
+
+  /* Contact */
+  .contact .info .card {
+    width: 100%;
+  }
+  .contact .form .row-1 input {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer .container .col-1 {
+    width: 100%;
+  }
+  .footer .container .col-1 img {
+    width: 12%;
+    justify-self: flex;
+  }
+  .footer .container .col-2 {
+    width: 100%;
+  }
+  .footer .container .col-3 {
+    width: 100%;
+  }
+  .footer .container .col-3 h3 {
+    margin-bottom: 1rem;
+  }
+  .footer .container .col-3 ul {
+    gap: 1.25rem;
+  }
+  .footer .container .col-1 h2 {
+    left: 8rem;
+  }
+}
+
+/* Medium Screens */
+@media screen and (width >= 779px) and (width <= 1023px) {
+  /* Navbar */
+  nav ul {
+    display: none;
+  }
+  nav .site-mode i.bars {
+    display: inline;
+  }
+
+  /* Header */
+  header {
+    height: auto;
+  }
+  header .container {
+    flex-flow: wrap column-reverse;
+    row-gap: 3.125rem;
+  }
+  header .home-content {
+    width: 100%;
+    text-align: center;
+  }
+  header .home-content .header-buttons {
+    justify-content: center;
+  }
+  header .home-content a:nth-of-type(1) {
+    border-radius: 1.875rem;
+  }
+  header .home-image {
+    width: 80%;
+  }
+
+  /* Chefs */
+  .chefs .content {
+    row-gap: 1.875rem;
+    column-gap: 1.87srem;
+  }
+  .chefs .content .card {
+    width: 48%;
+  }
+
+  /* Gallery */
+  .gallery .container {
+    min-width: 90%;
+  }
+  .gallery .content {
+    column-gap: 0.313rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 14.033rem 14.033rem 7.029rem 14.033rem 10.531rem 10.531rem 10.531rem;
+  }
+  .gallery .content .content-image {
+    width: 20.313rem;
+  }
+  .gallery .content .image-1 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 1;
+    grid-row: 2;
+  }
+  .gallery .content .image-2 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 2;
+    grid-row: 3;
+  }
+  .gallery .content .image-3 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 3;
+    grid-row: 6;
+  }
+  .gallery .content .image-4 {
+    grid-column: 1;
+    grid-column: 2;
+    grid-row: 6;
+    grid-row: 8;
+  }
+  .gallery .content .image-5 {
+    grid-column: 2;
+    grid-column: 3;
+    grid-row: 1;
+    grid-row: 4;
+  }
+  .gallery .content .image-6 {
+    grid-column: 2;
+    grid-column: 3;
+    grid-row: 4;
+    grid-row: 5;
+  }
+  .gallery .content .image-7 {
+    grid-column: 2;
+    grid-column: 3;
+    grid-row: 5;
+    grid-row: 7;
+  }
+
+  /* Contact */
+  .contact .form .row-1 input {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer .container .col-1 {
+    order: 0;
+    width: 48%;
+  }
+  .footer .container .col-1 picture {
+    width: 8%;
+  }
+  .footer .container .col-2 {
+    order: 2;
+    width: 100%;
+  }
+  .footer .container .col-3 {
+    order: 1;
+    width: 48%;
+  }
+  .footer .container .col-3 h3 {
+    margin-bottom: 1rem;
+  }
+  .footer .container .col-3 ul {
+    gap: 1.25rem;
+  }
+}
+
+/* Large Screens */
+@media screen and (width >= 1024px) and (width <= 1280px) {
+  .container {
+    width: 960px;
+  }
+
+  /* Navbar */
+  nav ul {
+    display: none;
+  }
+  nav .site-mode i.bars {
+    display: inline;
+  }
+
+  /* Header */
+  header {
+    height: auto;
+  }
+
+  /* CHEFS */
+  .chefs .content .card .card-image::after {
+    top: 78%;
+  }
+
+  /* Gallery */
+  .gallery .content {
+    height: 1100px;
+  }
+  .gallery .content .content-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* Footer */
+  .footer .container .col-1 {
+    order: 0;
+    width: 48%;
+  }
+  .footer .container .col-1 picture {
+    width: 8%;
+  }
+  .footer .container .col-2 {
+    order: 2;
+    width: 100%;
+  }
+  .footer .container .col-3 {
+    order: 1;
+    width: 48%;
+  }
+  .footer .container .col-3 h3 {
+    margin-bottom: 1rem;
+  }
+  .footer .container .col-3 ul {
+    gap: 1.25rem;
+  }
+  .footer .container .col-1 h2 {
+    left: 4.5rem;
+  }
+}
